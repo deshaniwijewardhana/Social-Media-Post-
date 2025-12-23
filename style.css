@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* Main container */
+.container {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* Profile header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-header h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Post card */
+.post {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Hover effect */
+.post:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.post img {
+    width: 100%;
+}
+
+/* Post content */
+.post-content {
+    padding: 10px;
+}
+
+.likes, .hashtags {
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.hashtags span {
+    color: #405de6; 
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Icon Buttons */
+.post-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.post-buttons i {
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.post-buttons i:hover {
+    transform: scale(1.2);
+}
+
+.like-btn.liked {
+    color: #e1306c;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+}
