@@ -1,8 +1,8 @@
-<img width="1920" height="1043" alt="Output" src="https://github.com/user-attachments/assets/f65b4ea8-7b3b-4278-b04c-9f4c0320a196" /># Social-Media-Post-
-Mock Social Media Post Card using HTML, CSS, and JavaScript
+# Social-Media-Post-
+Mock Social Media Post Card using HTML, CSS, and JavaScript.
 
 ## Overview
-This project is part of the Week 2 Lab of the Web Development course.  
+This project is part of the Lab of the Techniques in Social Media module.  
 It demonstrates a **mock Instagram-style post card** using **HTML5, CSS3, and JavaScript**.  
 
 ## Features
@@ -27,4 +27,4 @@ It demonstrates a **mock Instagram-style post card** using **HTML5, CSS3, and Ja
 3. Click the like button to interact with the post card
 
 ## Contributor
-- Deshani H. Wijewardhana (Partial Contribution)
+- Deshani Wijewardhana (Individual Activity)
